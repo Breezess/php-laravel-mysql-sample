@@ -54,10 +54,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('MYSQL_PORT_3306_TCP_ADDR', 'localhost'),
+            'host'      => env('MYSQL_PORT_3306_TCP_ADDR', 'tcp://10.10.26.58:3306'),
             'database'  => env('MYSQL_INSTANCE_NAME', 'forge'),
-            'username'  => env('MYSQL_USERNAME', 'forge'),
-            'password'  => env('MYSQL_PASSWORD', ''),
+            'username'  => env('MYSQL_USERNAME', 'p1bVXAE5OazIgWULZ'),
+            'password'  => env('MYSQL_PASSWORD', 'uzmkIif1xDNtLrVc'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
